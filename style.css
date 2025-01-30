@@ -1,0 +1,30 @@
+body{
+    background-color: grey ;
+}
+
+.caption{
+    text-align: center;
+    font-size: 3vw; 
+}
+.navigation{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1vw;
+
+}
+.item_menu{
+    font-size: 1.7vw;
+    border: 1px solid black;
+    padding: 1.3vw;/* внутрений отступ*/
+    border-radius: 25px;
+    transition: 0.3s;
+    color: black;
+}
+.item_menu:hover{
+    border: 1px solid yellow;
+    color: rgb(103, 103, 185);
+}
+.active{
+    border: 1px solid yellow;
+    color: rgb(103, 103, 185);
+}
