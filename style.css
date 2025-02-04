@@ -28,3 +28,18 @@ body{
     border: 1px solid yellow;
     color: rgb(103, 103, 185);
 }
+.description{
+    width:95vw;
+    font-size: 20px;
+    padding: 20px;
+}
+.Imgdesription{
+    position: absolute;
+    left: 40vw;
+    bottom: 100px;
+    width: 20vw;
+}
+.Big_img{
+    width: 50vw;
+    left: 25vw;
+}
